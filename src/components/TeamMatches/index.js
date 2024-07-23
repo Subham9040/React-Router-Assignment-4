@@ -88,21 +88,21 @@ class TeamMatches extends Component {
 
         switch (id) {
             case 'RCB':
-                return 'rcb',
+                return 'rcb'
             case 'KKR':
-                return 'kkr',
+                return 'kkr'
             case 'KXP':
-                return 'kxp',
+                return 'kxp'
             case 'CSK':
-                return 'csk',
+                return 'csk'
             case 'RR':
-                return 'rr',
+                return 'rr'
             case 'MI':
-                return 'mi',
+                return 'mi'
             case 'SRH':
-                return 'srh',
+                return 'srh'
             case 'DC':
-                return 'dc',
+                return 'dc'
             default:
                 return ''
         }
