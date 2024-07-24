@@ -50,7 +50,7 @@ class TeamMatches extends Component {
     }
 
     renderRecentMatchesList = () => {
-        const {teammatchesData} = this.state
+        const {teamMatchesData} = this.state
         const {recentMatches} = teamMatchesData
 
         return (
