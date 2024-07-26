@@ -5,7 +5,7 @@ import './index.css'
 
 const TeamCard = props => {
   const {teamDetails} = props
-  const {name, id, teamImageURL} = teamDetails
+  const {name, id, teamImageUrl} = teamDetails
 
   return (
     <li className="team-item">
